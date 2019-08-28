@@ -1,0 +1,11 @@
+table {
+border-spacing: 0 12px;
+font:  bold 100% Georgia, serif;
+margin: 40px auto;
+text-shadow: 1px 1px 1px #7F7F7F;
+background: #B1B9D9;
+text-align: center;
+vertical-align: middle;
+width: 60%;
+border: 3px solid blue;
+}
