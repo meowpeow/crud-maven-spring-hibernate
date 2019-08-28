@@ -1,0 +1,1 @@
+crud-maven-spring-hibernate
