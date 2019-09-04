@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="22bd857a-c1bd-441d-a644-78e153c89110" name="192.168.0.116 (1)" url="http://192.168.0.116:8080/webappsshared">
+        <fileTransfer port="0" mountedRoot="D:\myfolder\VirtualBox VMs\shared\webappsshared" accessType="MOUNT" />
+      </webServer>
+      <webServer id="a359be6a-dc8b-47e6-afeb-88aa8f7cf325" name="ubuntu-server" url="http://192.168.0.116:8080">
+        <fileTransfer port="0" mountedRoot="D:\myfolder\VirtualBox VMs\shared" accessType="MOUNT" />
+      </webServer>
+    </option>
+    <groups>
+      <group>
+        <name>ubuntu-vm</name>
+        <servers>
+          <name value="192.168.0.116 (1)" />
+        </servers>
+      </group>
+    </groups>
+  </component>
+</project>

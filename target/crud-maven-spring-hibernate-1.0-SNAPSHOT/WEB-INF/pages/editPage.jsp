@@ -39,6 +39,8 @@
     <input type="text" name="genre" id="genre">
     <label for="price">Price</label>
     <input type="text" name="price" id="price">
+    <label for="quantity">Quantity</label>
+    <input type="text" name="quantity" id="quantity">
 
     <c:if test="${empty book.title}">
         <input type="submit" value="Add new book">

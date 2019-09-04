@@ -1,4 +1,4 @@
-<%--
+        <%--
   Created by IntelliJ IDEA.
   User: meowp
   Date: 26-Aug-19
@@ -26,6 +26,7 @@
         <th>year</th>
         <th>genre</th>
         <th>price</th>
+        <th>quantity</th>
         <th>action</th>
     </tr>
     <c:forEach var="book" items ="${booksList}">
@@ -36,6 +37,7 @@
             <td>${book.year}</td>
             <td>${book.genre}</td>
             <td>${book.price}</td>
+            <td>${book.quantity}</td>
             <td>
                 <a href="/edit/${book.id}">edit</a>
                 <a href="/delete/${book.id}">delete</a>
